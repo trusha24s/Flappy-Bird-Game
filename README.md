@@ -10,9 +10,12 @@ This project replicates the classic Flappy Bird gameplay — where the bird flie
 FlappyBird-Java/
 │
 ├── README.md
+├── .gitignore
+│
 ├── src/
 │ ├── App.java
 │ └── FlappyBird.java
+│
 └── images/
 ├── flappybird.png
 ├── flappybirdbg.png
