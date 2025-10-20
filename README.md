@@ -1,5 +1,4 @@
-# 🐤 Flappy Bird - Java Swing
-
+# 🐤 Flappy-Bird-Game
 A simple **Flappy Bird clone** created using **Java Swing**.  
 This project replicates the classic Flappy Bird gameplay — where the bird flies through pipes — using basic 2D graphics and event handling in Java.
 
