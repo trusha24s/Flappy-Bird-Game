@@ -9,8 +9,7 @@ This project replicates the classic Flappy Bird gameplay — where the bird flie
 
 FlappyBird-Java/  
 │  
-├── README.md  
-├── .gitignore  
+├── README.md   
 │  
 ├── src/  
 │   ├── App.java  
@@ -64,26 +63,42 @@ Pipes are continuously generated at random heights, and the player must avoid co
 
 ---
 
-#### ⚙️ How to Run the Project
+#### 🧠 Concepts Used
 
-##### ▶️ Run from Command Line
+- **Java Swing** – for GUI components and rendering  
+- **Event Handling** – to respond to key and mouse input  
+- **Timers** – to manage continuous frame updates (game loop)  
+- **Collision Detection** – using rectangles for intersection  
+- **OOP Principles** – separate classes for game objects (bird, pipes)
 
-1. Open a terminal in the project folder.  
-2. Compile the source files:  
-```bash
-javac -d out src/*.java
-3. Run the compiled program:
+---
 
-java -cp out App
+##### 🧩 Run from Eclipse or IntelliJ
 
-🧩 Run from Eclipse or IntelliJ
+1. Create a new Java Project.  
+2. Copy the two `.java` files into the `src` folder.  
+3. Add the `images` folder in your project root.  
+4. Adjust image paths in the code if necessary.  
+5. Run the `App.java` file.
 
-Create a new Java Project.
+---
 
-Copy the two .java files into the src folder.
+#### 💡 Features
 
-Add the images folder in your project root.
+- 🎮 Smooth gameplay using Java’s Swing Timer  
+- 🌈 Simple graphics with optional custom images  
+- 🐦 Bird physics: gravity, flap strength, and vertical velocity  
+- 🧱 Randomly generated pipes with gaps  
+- 🔢 Live score display  
+- 🚀 Restart option without restarting the program  
 
-Adjust image paths in the code if necessary.
+---
+#### 🪪 License
 
-Run the App.java file.
+This project is licensed under the **MIT License** — see the LICENSE file for details.
+
+---
+
+#### 📬 Contact
+
+For any questions or feedback, feel free to open an issue or reach out to me directly.
