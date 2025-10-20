@@ -1,57 +1,71 @@
-# Flappy-Bird-Game
+# 🐤 Flappy Bird - Java Swing
 
-A Java implementation of the classic Flappy Bird game. This project includes the game logic, graphics, and resources needed to play Flappy Bird on your local machine.
+A simple **Flappy Bird clone** created using **Java Swing**.  
+This project replicates the classic Flappy Bird gameplay — where the bird flies through pipes — using basic 2D graphics and event handling in Java.
+
+---
+
+## 📁 Project Structure
+
+FlappyBird-Java/
+│
+├── README.md
+├── src/
+│ ├── App.java
+│ └── FlappyBird.java
+└── images/
+├── flappybird.png
+├── flappybirdbg.png
+├── toppipe.png
+└── bottompipe.png
 
 ## Screenshots
 
-![Game Screenshot](Screenshot%202024-07-11%20193704.png)
+![Game Screenshot](Screenshot 2025-10-20 114237.png)
 
-## Features
 
-- Simple and intuitive gameplay
-- Engaging graphics
-- Collision detection
-- Score tracking
+---
 
-## Getting Started
+### 📸 Image Files
+Make sure these 4 PNG files are present inside the `images/` folder:
+- `flappybird.png` → Bird sprite  
+- `flappybirdbg.png` → Background image  
+- `toppipe.png` → Top pipe image  
+- `bottompipe.png` → Bottom pipe image  
 
-### Prerequisites
+If the images are missing, the game can still run but will use simple colored shapes.
 
-- Java Development Kit (JDK) installed
+---
 
-### Installation
+## 🧠 How It Works
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Hritickjha/Flappy-Bird-Game.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd Flappy-Bird-Game
-    ```
+This project is built using **Java Swing** for the graphical interface.  
+It contains two main files:
+- **App.java** – The entry point that creates a game window and runs the `FlappyBird` panel.  
+- **FlappyBird.java** – Contains the core game logic such as bird movement, gravity, pipes, collision detection, and scoring.
 
-### Running the Game
+The bird moves automatically due to gravity, and when the player presses the **spacebar** or **mouse click**, the bird “flaps” upward.  
+Pipes are continuously generated at random heights, and the player must avoid colliding with them. Each pipe pair passed increases the score by one.
 
-Compile and run the game using the following commands:
-    ```bash
-    javac App.java
-    java App
-    ```
+---
 
-## File Descriptions
+## 🕹️ Controls
 
-- `App.java`: The main class to run the game.
-- `FlappyBird.java`: Contains the game logic and rendering code.
-- `bottompipe.png`, `flappybird.png`, `flappybirdbg.png`, `toppipe.png`: Game assets.
-- `Screenshot 2024-07-11 193704.png`: Screenshot of the game.
+| Action | Key / Mouse |
+|--------|--------------|
+| Start Game | Press **Space** or **Mouse Click** |
+| Flap / Jump | **Spacebar** |
+| Restart Game | **R** key |
 
-## Contributing
+---
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a new Pull Request
+## ⚙️ How to Run the Project
+
+### ▶️ Run from Command Line
+1. Open a terminal in the project folder.
+2. Compile the source files:
+   ```bash
+   javac -d out src/*.java
 
 ## License
 
