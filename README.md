@@ -7,24 +7,26 @@ This project replicates the classic Flappy Bird gameplay — where the bird flie
 
 ## 📁 Project Structure
 
+```plaintext
 FlappyBird-Java/
 │
 ├── README.md
 ├── .gitignore
 │
 ├── src/
-│ ├── App.java
-│ └── FlappyBird.java
+│   ├── App.java
+│   └── FlappyBird.java
 │
 └── images/
-├── flappybird.png
-├── flappybirdbg.png
-├── toppipe.png
-└── bottompipe.png
+    ├── flappybird.png
+    ├── flappybirdbg.png
+    ├── toppipe.png
+    └── bottompipe.png
+
 
 ## Screenshots
 
-![Game Screenshot](Screenshot 2025-10-20 114237.png)
+![Game Screenshot]('Screenshot 2025-10-20 114237.png')
 
 
 ---
