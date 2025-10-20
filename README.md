@@ -24,7 +24,7 @@ FlappyBird-Java/
     └── bottompipe.png
 
 
-## Screenshots
+### Screenshots
 
 ![Game Screenshot]('Screenshot 2025-10-20 114237.png')
 
@@ -42,7 +42,7 @@ If the images are missing, the game can still run but will use simple colored sh
 
 ---
 
-## 🧠 How It Works
+### 🧠 How It Works
 
 This project is built using **Java Swing** for the graphical interface.  
 It contains two main files:
@@ -54,7 +54,7 @@ Pipes are continuously generated at random heights, and the player must avoid co
 
 ---
 
-## 🕹️ Controls
+### 🕹️ Controls
 
 | Action | Key / Mouse |
 |--------|--------------|
@@ -64,7 +64,7 @@ Pipes are continuously generated at random heights, and the player must avoid co
 
 ---
 
-## ⚙️ How to Run the Project
+### ⚙️ How to Run the Project
 
 ### ▶️ Run from Command Line
 1. Open a terminal in the project folder.
@@ -72,10 +72,10 @@ Pipes are continuously generated at random heights, and the player must avoid co
    ```bash
    javac -d out src/*.java
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+### Contact
 
 For any questions or feedback, feel free to open an issue or reach out to me directly.
